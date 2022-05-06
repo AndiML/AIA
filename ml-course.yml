@@ -1,0 +1,13 @@
+name: ml-course
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - torchaudio
+  - pytorch
+  - cudatoolkit=11.1
+  - torchvision
+  - scikit-learn
+  - jupyterlab
+  - matplotlib
+prefix: /home/bayerc/anaconda3/envs/ml-course
